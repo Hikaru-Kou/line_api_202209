@@ -1,0 +1,6 @@
+コマンド
+crontab -e
+書く内容は
+何分おきかにfile_cleanew.pyを実行する動作を行う
+例として30分おき
+*/30 * * * * python3 絶対パス/file_cleaner.py
